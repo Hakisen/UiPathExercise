@@ -108,7 +108,7 @@
             <InArgument x:TypeArguments="s:String[]">[{strFirstName,strLastName,strAge}]</InArgument>
           </Assign.Value>
         </Assign>
-        <ui:WriteTextFile DisplayName="Write Text File" FileName="c:\users\HåkanKilström\Desktop\array_variable" sap:VirtualizedContainerService.HintSize="314,87" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[arrStringNameAge(0) + &quot; &quot; + arrStringNameAge(1) + &quot; &quot; + arrStringNameAge(2) + &quot; &quot;]" />
+        <ui:WriteTextFile DisplayName="Write Text File" FileName="c:\users\HåkanKilström\Desktop\array_variable.txt" sap:VirtualizedContainerService.HintSize="314,87" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[arrStringNameAge(0) + &quot; &quot; + arrStringNameAge(1) + &quot; &quot; + arrStringNameAge(2) + &quot; &quot;]" />
       </Sequence>
     </FlowStep>
   </Flowchart>
