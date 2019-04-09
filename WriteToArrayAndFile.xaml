@@ -51,7 +51,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Flowchart sap:VirtualizedContainerService.HintSize="635,720" sap2010:WorkflowViewState.IdRef="Flowchart_2">
+  <Flowchart DisplayName="Flowchart - Write to array and file" sap:VirtualizedContainerService.HintSize="635,720" sap2010:WorkflowViewState.IdRef="Flowchart_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -72,7 +72,7 @@
           <av:Size x:Key="ShapeSize">200,51</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap:VirtualizedContainerService.HintSize="336,707" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence DisplayName="Sequence - Write to array and file" sap:VirtualizedContainerService.HintSize="336,707" sap2010:WorkflowViewState.IdRef="Sequence_2">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="strFirstName" />
           <Variable x:TypeArguments="x:String" Name="strLastName" />
